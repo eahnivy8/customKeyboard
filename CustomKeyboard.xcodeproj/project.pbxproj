@@ -12,6 +12,8 @@
 		1EF1FBE722CAF7D300A885C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1FBE522CAF7D300A885C9 /* Main.storyboard */; };
 		1EF1FBE922CAF7D300A885C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1FBE822CAF7D300A885C9 /* Assets.xcassets */; };
 		1EF1FBEC22CAF7D300A885C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1FBEA22CAF7D300A885C9 /* LaunchScreen.storyboard */; };
+		1EF1FBF422CAF89500A885C9 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1FBF322CAF89500A885C9 /* CustomKeyboard.swift */; };
+		1EF1FBF822CAFA7F00A885C9 /* CustomKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1FBF722CAFA7F00A885C9 /* CustomKeyboard.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1EF1FBE822CAF7D300A885C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EF1FBEB22CAF7D300A885C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EF1FBED22CAF7D300A885C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF1FBF322CAF89500A885C9 /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		1EF1FBF722CAFA7F00A885C9 /* CustomKeyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomKeyboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				1EF1FBE122CAF7D300A885C9 /* AppDelegate.swift */,
+				1EF1FBF322CAF89500A885C9 /* CustomKeyboard.swift */,
+				1EF1FBF722CAFA7F00A885C9 /* CustomKeyboard.xib */,
 				1EF1FBE322CAF7D300A885C9 /* ViewController.swift */,
 				1EF1FBE522CAF7D300A885C9 /* Main.storyboard */,
 				1EF1FBE822CAF7D300A885C9 /* Assets.xcassets */,
@@ -125,6 +131,7 @@
 				1EF1FBEC22CAF7D300A885C9 /* LaunchScreen.storyboard in Resources */,
 				1EF1FBE922CAF7D300A885C9 /* Assets.xcassets in Resources */,
 				1EF1FBE722CAF7D300A885C9 /* Main.storyboard in Resources */,
+				1EF1FBF822CAFA7F00A885C9 /* CustomKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF1FBF422CAF89500A885C9 /* CustomKeyboard.swift in Sources */,
 				1EF1FBE422CAF7D300A885C9 /* ViewController.swift in Sources */,
 				1EF1FBE222CAF7D300A885C9 /* AppDelegate.swift in Sources */,
 			);
